@@ -1,0 +1,67 @@
+body {
+    font-family: 'Manrope',  sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #202733;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background: hsl(217, 19%, 24%);
+    width: clamp(21.4375rem, 18.975rem + 12.3125vw, 33.75rem);
+    padding-inline: 3em;
+    padding-block: 3em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.advice-id p {
+    font-size: 0.6875rem;
+    font-size: clamp(0.6875rem, 0.6625rem + 0.125vw, 0.8125rem);
+    font-weight: bold;
+    color: #53FFAA;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+.advice-text p {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.45rem + 0.25vw, 1.75rem);
+    color: #CEE3E9;
+   text-align: center; 
+}
+
+
+.pattern-divider img {
+    width: 100%;
+}
+
+.advice-text span{
+   color: gray;
+}
+
+.dice-icon {
+    background-color: #53FFAA;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1em 1em;
+    margin-inline: auto;
+    margin-top: -2em;
+
+}
+
+.dice-icon:hover {
+    cursor: pointer;
+    color: hsl(150, 100%, 66%);
+    box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+    transition: all ease-in-out 0.1s;
+
+}
